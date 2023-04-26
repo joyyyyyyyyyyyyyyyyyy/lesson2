@@ -11,7 +11,8 @@
         android:id="@+id/button11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:text="@string/button"
+        tools:ignore="DuplicateSpeakableTextCheck" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -22,7 +23,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:text="Button" />
+        android:text="@string/b" />
 
     <EditText
         android:id="@+id/editTextText"
@@ -30,7 +31,10 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:ems="10"
+        android:hint="@string/n"
         android:inputType="text"
-        android:hint="Name" />
+        android:minHeight="48dp"
+        tools:ignore="VisualLintTextFieldSize"
+        android:autofillHints="" />
 
 </LinearLayout>
