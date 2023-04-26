@@ -4,4 +4,5 @@
     <string name="b1">Button 1</string>
     <string name="s2">Large Text</string>
     <string name="b2">Button 2</string>
+    <string name="name">Name:______________________</string>
 </resources>
