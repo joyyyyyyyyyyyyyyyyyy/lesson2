@@ -9,11 +9,37 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="@string/name" />
+        android:hint="@string/name"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:textColorHint="#A1887F" />
 
     <TextView
         android:id="@+id/textView5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:hint="@string/password"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:textColorHint="#A1887F" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="@string/loginbutton"
+            tools:ignore="VisualLintButtonSize"
+            style="?android:attr/buttonBarButtonStyle" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cancelbutton"
+            style="?android:attr/buttonBarButtonStyle" />
+    </LinearLayout>
 </LinearLayout>

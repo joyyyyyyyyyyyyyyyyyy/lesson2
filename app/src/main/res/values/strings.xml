@@ -4,5 +4,12 @@
     <string name="b1">Button 1</string>
     <string name="s2">Large Text</string>
     <string name="b2">Button 2</string>
-    <string name="name">Name:______________________</string>
+    <string name="name">Name:________________________</string>
+    <string name="password">Password:_________________________</string>
+    <string name="loginbutton">Login</string>
+    <string name="cancelbutton">Cancel</string>
+    <string name="n">Name</string>
+    <string name="b">Button</string>
+    <string name="button">Button</string>
+
 </resources>
